@@ -80,7 +80,7 @@ python make_csv.py
 모든 T2T 모델 학습은 RTX 3090 1ea 환경에서 진행했습니다. 메모리 이슈로 학습이 안될 경우 적절히 배치사이즈를 조절해주세요. 
 `YOUR_MODEL_PATH`에 저장할 폴더를 지정해주세요.
 
-FineTuning KoBART
+<strong>FineTuning KoBART</strong>
 ```
 python train_bart.py \
 --pretrained_model_name_or_path gogamza/kobart-base-v2 \
@@ -95,7 +95,7 @@ python train_bart.py \
 --wandb_model_name kobart_test \
 --project_name dialect \
 ```
-FineTuning KoUL2 (Recommend)
+<strong>FineTuning KoUL2 (Recommend)</strong>
 ```
 python train_ul2.py \
 --pretrained_model_name_or_path DaehanKim/KoUL2 \
