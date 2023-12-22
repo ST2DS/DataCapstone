@@ -1,0 +1,13 @@
+accelerate==0.24.1
+Cython==0.29.32
+datasets==2.14.6
+evaluate==0.4.1
+kss==4.5.4
+numpy==1.26.2
+pandas==2.1.3
+rouge-score==0.1.2
+scikit-learn==1.3.2
+tokenizers==0.14.1
+tqdm==4.66.1
+transformers==4.35.1
+wandb==0.16.0
