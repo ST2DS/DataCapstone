@@ -9,6 +9,9 @@
 pip install -r requirements.txt
 ```
 
+## Demo
+`st2ds_demo.ipynb` 파일을 실행하면 사용자로부터 입력 받은 표준어 텍스트를 경상도 방언 스피치로 바꾸어주는 기능을 사용할 수 있습니다.
+
 ## TTS Model
 ```
 cd TTS
@@ -111,7 +114,7 @@ python train_ul2.py \
 --project_name dialect \
 ```
 ### Inference
+`$YOUR_MODEL_PATH` 대신 `dannykm/DialectKoUL2`을 넣으시면 위 학습 과정 없이도 이미 해당 프로젝트 코드로 학습된 모델을 허깅페이스 허브로 부터 불러올 수 있습니다.
 ```
-python inference.py \
---model_name_or_path $YOUR_MODEL_PATH
+python inference.py --model_name_or_path $YOUR_MODEL_PATH
 ```
