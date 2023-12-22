@@ -1,19 +1,3 @@
-# DataCapstone
-표준어 텍스트를 입력으로 받아 경상도 방언을 출력하는 프로젝트입니다.
-
-1. 먼저 T2T Model(KoUL2)이 표준어 텍스트를 경상도 방언 텍스트로 바꿔줍니다.
-2. 이후 TTS Model(GlowTTS)이 경상도 방언 텍스트를 경상도 방언 스피치로 바꿔줍니다.
-
-## Installation
-```
-pip install -r requirements.txt
-```
-
-## TTS Model
-```
-cd T2T
-```
-
 # Data Capstone
 표준어 텍스트를 입력으로 받아 경상도 방언을 출력하는 프로젝트입니다.
 
